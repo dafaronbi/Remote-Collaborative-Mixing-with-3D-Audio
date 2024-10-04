@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Yebo HTML5 CSS3 Template</title>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css?v=1.2" rel="stylesheet">
+		<link href="css/queries.css?v=1.2" rel="stylesheet">
+		<link rel="stylesheet" href="css/flexslider.css?v=1.2" type="text/css">
+		<link rel="stylesheet" href="css/animate.css" type="text/css">
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<!-- <div class="container">
+				<div class="row">
+					<div class="responsive-logo"></div>
+					<div class="pullcontainer">
+						<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<nav>
+							<div class="logo-holder"></div>
+							<ul class="clearfix">
+								<li><a href="#about">About Us</a></li>
+								<li class="dot">.</li>
+								<li><a href="#work" class="r_spacer">Work</a></li>
+								<li><a href="#shop">Shop</a></li>
+								<li class="dot">.</li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div> -->
+			<!-- <div class="hero "><h1 style="color:aliceblue; text-align:center;">Remote Collaborative Mixing with 3D Audio</h1></div> -->
+			<div style="position: relative; width: 100%;">
+				<img src="img/mixboard.jpg" alt="Sample Image" style="width: 100%; height: auto;">
+				<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-size: 50px; font-weight: bold; text-align: center;">
+				  Remote Collaborative Mixing with 3D Audio
+				</div>
+			  </div>
+		</header>
+		<section class="discover">
+			<div class="container-fluid">
+				<div class="row">
+					<div>
+						<a href="https://aes2.org/publications/elibrary-page/?id=22521" class="shop-btn">Read The Paper</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container-fluid intro" id="about">
+			<div class="row p-3">
+				<div class=" ">
+					<h1 class="wave">Overview</h1>
+					<p class="text-intro m-3" style="width: 80%; margin: 0 auto;">Professional mixing and mastering of recorded audio is a challenging task. The process involves creating a mix that
+						performs well across various listening environments, which can be quite cumbersome. With existing tools, audio
+						engineers must render the audio, test it in different settings, and then remix it. This iterative process continues
+						until the audio track is completed. The introduction of 3D spatial audio has further complicated matters, resulting
+						in even more complex and varied mixes due to different speaker configurations. To address this, we propose an
+						application that enables users to stream their mix in spatial audio to another location: MixShare. By doing so, the mix can be
+						evaluated simultaneously in multiple listening environments without the need for rendering and re-mixing. </p>
+				</div>
+			</div>
+		</div>
+
+		<section>
+			<div class="center">
+			<img src="img/mixshare.svg" style="width: 100%; height: 300px;"alt="nothing">
+		</div>
+
+		<div class="container-fluid" id="about"></div>
+			<div class="row p-3" >
+				<div class=" ">
+					<h1 class="mp3">System Design</h1>
+					<p class="text-intro m-3" style="width: 80%; margin: 0 auto;">MixShare is made up of two individual applications:
+						The host app and the client app. The host app is a
+						multi-input and output virtual effect that can be hosted
+						by a DAW. Specific audio channels can be bused in
+						and out of the host to be heard individually.
+						The client app is a stand-alone application. When a user changes one of the parameters on the
+						host app, an interrupt will stream the change to the
+						client and vice versa. This ensures that mix parameters
+						are synchronized between the two applications.</p>
+				</div>
+			</div>
+		</div>
+		</section>
+
+		<section>
+		<div class="container-fluid" style="padding: 4em 0;">
+			<div class="row">
+				<div class="col-md-4 section-text nopadding" >
+					<div class="wp4">
+						<h2 class="sliders" style="width: 80%; margin: 0 auto;">Steamable Mix Channels</h2>
+						<p>Each channel bi directionally streams gain and 
+							Dolby Atmos Music Panner information. This allows for realtime
+							interaction between host and client.</p>
+						<div class="thin-sep"></div>
+					</div>
+				</div>
+			
+				<div class="col-md-8 mixchannel nopadding" id="work">
+				<!-- <div class="logo-1 wp1"></div> --></div>
+				 
+			</div>
+		</div>
+		
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 section-1 nopadding" id="work">
+					<!-- <div class="logo-1 wp1"></div> -->
+				</div>
+				<div class="col-md-4 section-text nopadding">
+					<div class="wp4">
+						<h2 class="sliders-h">Comparisons with past approaches</h2>
+						<p>We came up with 6 desirable
+							features that a collaborative mixing app should have
+							and analyze. We compare our application with other past
+							collaborative mixing applications.</p>
+						<div class="thin-sep"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid intro" id="about"></div>
+			<div class="row p-3">
+				<div class=" ">
+					<h1 class="play">Video Demonstration</h1>
+					<p><iframe width="560" height="315" src="https://www.youtube.com/embed/MDOFYfL5yYQ?si=DWzGnEQHGedoLai7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	
+		<footer id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 footer-leftcol">
+						<p>Daniel Faronbi<br>
+						Phil Brown
+						</p>
+					</div>
+					<div class="col-md-4 ">
+						<img src="img/marl_logo.png" style="width: 15em;" alt="img">
+					</div>
+					<div class="col-md-4 ">
+						<img src="img/dolby.png" style="width: 15em;" alt="img">
+					</div>
+
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins)-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.flexslider.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/waypoints.min.js"></script>
+	</body>
+</html>
